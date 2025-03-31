@@ -22,19 +22,7 @@ Hint / Algorithm:
 """
 
 def max_difference(arr):
-    if len(arr) < 2:
-        return -1
-    
-    min_val = arr[0]
-    max_diff = -1
 
-    for i in range(1, len(arr)):
-        if arr[i] > min_val:
-            max_diff = max(max_diff, arr[i] - min_val)
-        else:
-            min_val = arr[i]
-
-    return max_diff
 
 # Test Cases
 print(max_difference([2, 3, 10, 6, 4, 8, 1]))  # 8

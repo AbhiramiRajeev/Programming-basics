@@ -21,11 +21,7 @@ Hint / Algorithm:
 """
 
 def remove_duplicates(arr):
-    unique = []
-    for num in arr:
-        if num not in unique:
-            unique.append(num)
-    return unique
+
 
 # Test Cases
 print(remove_duplicates([1, 2, 3, 1, 2, 4, 5]))  # [1, 2, 3, 4, 5]

@@ -24,11 +24,7 @@ Hint / Algorithm:
 */
 
 func reverseArray(arr []int) []int {
-	reversed := []int{}
-	for i := len(arr) - 1; i >= 0; i-- {
-		reversed = append(reversed, arr[i])
-	}
-	return reversed
+
 }
 
 func main() {

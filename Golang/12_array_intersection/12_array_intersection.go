@@ -21,21 +21,7 @@ Hint / Algorithm:
 */
 
 func arrayIntersection(arr1, arr2 []int) []int {
-	set := make(map[int]bool)
-	result := []int{}
 
-	for _, num := range arr1 {
-		set[num] = true
-	}
-
-	for _, num := range arr2 {
-		if set[num] {
-			result = append(result, num)
-			delete(set, num)
-		}
-	}
-
-	return result
 }
 
 func main() {

@@ -22,20 +22,7 @@ Hint / Algorithm:
 */
 
 function maxDifference(arr) {
-    if (arr.length < 2) return -1;
-    
-    let minVal = arr[0];
-    let maxDiff = -1;
 
-    for (let i = 1; i < arr.length; i++) {
-        if (arr[i] > minVal) {
-            maxDiff = Math.max(maxDiff, arr[i] - minVal);
-        } else {
-            minVal = arr[i];
-        }
-    }
-
-    return maxDiff;
 }
 
 // Test Cases

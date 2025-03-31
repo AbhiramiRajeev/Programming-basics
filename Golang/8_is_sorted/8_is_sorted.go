@@ -8,14 +8,14 @@ Problem 8: Check if an Array is Sorted
 Given an array of numbers, determine if it is sorted in non-decreasing order.
 
 Example Input/Output:
-Input: [1, 2, 3, 4, 5]  
-Output: true  
+Input: [1, 2, 3, 4, 5]
+Output: true
 
-Input: [3, 2, 1]  
-Output: false  
+Input: [3, 2, 1]
+Output: false
 
-Input: [7, 7, 8, 9]  
-Output: true  
+Input: [7, 7, 8, 9]
+Output: true
 
 Hint / Algorithm:
 1. Iterate through the array.
@@ -25,12 +25,7 @@ Hint / Algorithm:
 */
 
 func isSorted(arr []int) bool {
-	for i := 0; i < len(arr)-1; i++ {
-		if arr[i] > arr[i+1] {
-			return false
-		}
-	}
-	return true
+
 }
 
 func main() {

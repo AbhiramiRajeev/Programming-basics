@@ -21,13 +21,7 @@ Hint / Algorithm:
 */
 
 function countOccurrences(arr, target) {
-    let count = 0;
-    for (let num of arr) {
-        if (num === target) {
-            count++;
-        }
-    }
-    return count;
+
 }
 
 // Test Cases

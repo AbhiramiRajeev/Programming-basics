@@ -22,14 +22,6 @@ Hint / Algorithm:
 """
 
 def find_max(arr):
-    if not arr:  # Edge case: Empty array
-        return None
-    
-    max_value = arr[0]
-    for num in arr[1:]:
-        if num > max_value:
-            max_value = num
-    return max_value
 
 # Test Cases
 print(find_max([1, 5, 3, 9, 2]))  # 9

@@ -24,15 +24,7 @@ Hint / Algorithm:
 */
 
 func findMax(arr []int) int {
-	if len(arr) == 0 {
-		return -1 // Return -1 to indicate an empty array case
-	}
-	max := arr[0]
-	for _, num := range arr {
-		if num > max {
-			max = num
-		}
-	}
+
 	return max
 }
 

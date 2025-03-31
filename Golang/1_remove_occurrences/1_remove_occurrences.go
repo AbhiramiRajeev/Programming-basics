@@ -28,13 +28,7 @@ Hint / Algorithm:
 */
 
 func removeOccurrences(arr []int, element int) []int {
-	var result []int
-	for _, num := range arr {
-		if num != element {
-			result = append(result, num)
-		}
-	}
-	return result
+
 }
 
 func main() {

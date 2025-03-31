@@ -20,14 +20,7 @@ Hint / Algorithm:
 */
 
 function firstNonRepeating(arr) {
-    let count = {};
-    for (let num of arr) {
-        count[num] = (count[num] || 0) + 1;
-    }
-    for (let num of arr) {
-        if (count[num] === 1) return num;
-    }
-    return -1;
+
 }
 
 // Test Cases

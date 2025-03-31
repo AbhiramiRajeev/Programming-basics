@@ -23,9 +23,6 @@ Hint / Algorithm:
 
 def remove_occurrences(arr, element):
     result = []
-    for num in arr:
-        if num != element:
-            result.append(num)
     return result
 
 # Test Cases

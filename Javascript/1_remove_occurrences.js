@@ -22,13 +22,7 @@ Hint / Algorithm:
 */
 
 function removeOccurrences(arr, element) {
-    let result = [];
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] !== element) {
-            result.push(arr[i]);
-        }
-    }
-    return result;
+
 }
 
 // Test Cases

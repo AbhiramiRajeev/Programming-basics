@@ -24,16 +24,7 @@ Hint / Algorithm:
 */
 
 func removeDuplicates(arr []int) []int {
-	unique := []int{}
-	exists := make(map[int]bool)
 
-	for _, num := range arr {
-		if !exists[num] {
-			unique = append(unique, num)
-			exists[num] = true
-		}
-	}
-	return unique
 }
 
 func main() {

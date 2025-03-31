@@ -17,8 +17,7 @@ Hint / Algorithm:
 """
 
 def array_intersection(arr1, arr2):
-    set1 = set(arr1)
-    return list(set1.intersection(arr2))
+
 
 # Test Cases
 print(array_intersection([1, 2, 2, 1], [2, 2])) # [2]

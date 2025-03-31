@@ -26,24 +26,7 @@ Hint / Algorithm:
 */
 
 func maxDifference(arr []int) int {
-	if len(arr) < 2 {
-		return -1
-	}
 
-	minVal := arr[0]
-	maxDiff := -1
-
-	for i := 1; i < len(arr); i++ {
-		if arr[i] > minVal {
-			if arr[i]-minVal > maxDiff {
-				maxDiff = arr[i] - minVal
-			}
-		} else {
-			minVal = arr[i]
-		}
-	}
-
-	return maxDiff
 }
 
 func main() {

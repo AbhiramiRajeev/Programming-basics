@@ -20,13 +20,7 @@ Hint / Algorithm:
 """
 
 def first_non_repeating(arr):
-    count = {}
-    for num in arr:
-        count[num] = count.get(num, 0) + 1
-    for num in arr:
-        if count[num] == 1:
-            return num
-    return -1
+
 
 # Test Cases
 print(first_non_repeating([4, 5, 1, 2, 0, 4, 5, 1]))  # 2

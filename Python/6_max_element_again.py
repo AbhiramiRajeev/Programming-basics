@@ -21,13 +21,7 @@ Hint / Algorithm:
 """
 
 def find_max(arr):
-    if not arr:
-        return None  # Handle empty array case
-    max_num = arr[0]
-    for num in arr:
-        if num > max_num:
-            max_num = num
-    return max_num
+
 
 # Test Cases
 print(find_max([3, 1, 9, 7, 4]))  # 9

@@ -25,19 +25,7 @@ Hint / Algorithm:
 */
 
 func firstUniqueChar(s string) string {
-	charCount := make(map[rune]int)
 
-	for _, char := range s {
-		charCount[char]++
-	}
-
-	for _, char := range s {
-		if charCount[char] == 1 {
-			return string(char)
-		}
-	}
-
-	return "_"
 }
 
 func main() {
